@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        Example
+    </title>
+    <style>
+         
+    #grid{
+        width: 100vw;
+  height: 100vh;
+  background-image: url("gdd.jpg");
+  background-repeat: no-repeat;
+  overflow:auto;
+            background-attachment: scroll;
+        display:grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap:2vw;
+            }
+            #grid div{
+                width:100%;
+                font-size:5vw;
+                border-radius:50%;
+     /*  padding: .5em;*/
+                background: gold;
+                text-align:center;
+                          }
+
+                          #grid div:hover{
+                font-size:5vw;
+                border-radius:50%;
+     /*  padding: .5em;*/
+     visibility: hidden;
+            
+                          }
+                          
+
+    </style>
+    </head>
+    <body>
+        <div id="grid">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+        </div>
+    </body>
+</html>
